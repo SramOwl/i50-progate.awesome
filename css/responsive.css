@@ -4,6 +4,11 @@
     width: 50%;
     margin-bottom: 50px;
   }
+
+  .work {
+    width: 50%;
+    margin-bottom: 50px;
+  }
   
   .top-wrapper h1 {
     font-size: 32px;
@@ -17,11 +22,20 @@
     width: 50%;
     margin-bottom: 25px;
   }
+
+  .contact-wrapper{
+    width: 50%;
+    margin-bottom: 25px;
+  }
 }
 
 /* For Smartphones */
 @media all and (max-width: 670px) {
   .team {
+    width: 100%;
+  }
+
+  .work {
     width: 100%;
   }
   
@@ -64,5 +78,9 @@
     width: 100%;
     margin-bottom: 25px;
   }
+  .contact-wrapper{
+    width: 50%;
+    margin-bottom: 25px;
+  }
 }
-}
+
