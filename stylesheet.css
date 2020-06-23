@@ -20,7 +20,7 @@ html{
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 2000px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -253,7 +253,7 @@ input, textarea {
 }
 
 footer{
-  background-color: #393e46;
+  background-color: #4a316f;
   padding-top: 25px;
   color: white;
 }
@@ -297,7 +297,7 @@ footer{
 }
 
 .copyright{
-  background-color: black;
+  background-color:#4a316f;
   padding: 1px 0;
   text-align: center;
 }
