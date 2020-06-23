@@ -12,6 +12,11 @@
   .heading h2 {
     font-size: 20px;
   }
+
+  .footer-content{
+    width: 50%;
+    margin-bottom: 25px;
+  }
 }
 
 /* For Smartphones */
@@ -53,4 +58,11 @@
     font-size: 14px;
     line-height: 20px;
   }
+
+  .footer-content{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+}
 }
