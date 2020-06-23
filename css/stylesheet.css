@@ -139,14 +139,10 @@ header {
   text-align: center;
 }
 
-.work{
-  height: 500px;
-  margin-top: 100px;
-}
-
 .contents-item {
   float: left;
-  margin-right: 0px;
+  margin-right: 46px;
+  position: center;
 }
 
 .team-wrapper {
@@ -256,6 +252,10 @@ footer{
   background-color: #4a316f;
   padding-top: 25px;
   color: white;
+}
+
+.container1 {
+  padding: 0 25px;
 }
 
 .footer-content img{
