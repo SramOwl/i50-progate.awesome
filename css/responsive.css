@@ -9,6 +9,11 @@
     width: 50%;
     margin-bottom: 50px;
   }
+
+  .contact-wrapper{
+    width: 50%;
+    margin-bottom: 25px;
+  }
   
   .top-wrapper h1 {
     font-size: 32px;
@@ -22,12 +27,9 @@
     width: 50%;
     margin-bottom: 25px;
   }
-
-  .contact-wrapper{
-    width: 50%;
-    margin-bottom: 25px;
-  }
 }
+
+
 
 /* For Smartphones */
 @media all and (max-width: 670px) {
@@ -39,10 +41,12 @@
     width: 100%;
   }
   
-  footer {
+  .contact-wrapper{
     text-align: center;
+    width: 100%;
+    margin-bottom: 25px;
   }
-  
+
   .btn {
     width: 100%;
   }
@@ -52,7 +56,7 @@
   }
   
   .top-wrapper {
-    text-align: left;
+    text-align: center;
   }
   
   .header-right {
@@ -76,10 +80,6 @@
   .footer-content{
     text-align: center;
     width: 100%;
-    margin-bottom: 25px;
-  }
-  .contact-wrapper{
-    width: 50%;
     margin-bottom: 25px;
   }
 }
