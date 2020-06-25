@@ -20,7 +20,7 @@ html{
 }
 
 .container {
-  max-width: 2000px;
+  max-width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -121,6 +121,7 @@ header {
 
 .header-right a:hover {
   background-color: rgba(255, 255, 255, 0.3);
+  color: #ff9e4a;
 }
 
 .menu-icon{
@@ -141,7 +142,7 @@ header {
 
 .contents-item {
   float: left;
-  margin-right: 46px;
+  margin-right: 42px;
   position: center;
 }
 
@@ -195,12 +196,13 @@ header {
 }
 
 input, textarea {
-  width: 400px;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  padding: 20px;
+  width: 350px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding: 10px ;
   font-size: 18px;
   border: 1px solid #dee7ec;
+  color: #ff9e4a;
 }
 
 .contact-submit {
@@ -223,8 +225,10 @@ input, textarea {
 }
 
 .message-wrapper {
-  border-bottom: 1px solid #eee;
   padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
   text-align: center;
 }
 
@@ -283,8 +287,13 @@ footer{
   text-decoration: none;
 }
 
+.footer-content a:hover {
+  color: #ff9e4a;
+}
+
 .footer-content p:hover{
   cursor: pointer;
+  color: #ff9e4a;
 }
 
 .fab{
@@ -294,6 +303,7 @@ footer{
 
 .fab:hover{
   transform: scale(1.25);
+  color: #ff9e4a;
 }
 
 .copyright{
