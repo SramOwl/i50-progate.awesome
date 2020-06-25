@@ -21,7 +21,7 @@
 
   <body>
 
-	<header>
+	 <header>
 
 		<div class="container">
         <div class="header-left">
@@ -30,13 +30,14 @@
         <a href="#" class="menu-icon"><span class="fa fa-bars"></span></a>
         <div class="header-right">
           <a href="#">ABOUT</a>
-          <a href="#">OUR WORK</a>
-          <a href="#">CONTACT</a>
-          <a href="#" class="login">JOIN US</a>
+          <a href="#ourwork">OUR WORK</a>
+          <a href="#ourteam">OUR TEAM</a>
+          <a href="#joinUs" class="login">JOIN US</a>
+          <a href="#contactUs">CONTACT</a>
         </div>
     </div>
 
-	</header>
+	 </header>
 
     <div class="top-wrapper">
       <div class="container">
@@ -50,7 +51,7 @@
       </div>
     </div>
 
-    <div class="work-wrapper">
+    <div class="work-wrapper" id="ourwork">
       <div class="container">
         <div class="heading">
           <h2>OUR WORK</h2>
@@ -86,7 +87,7 @@
     </div>
 
            
-    <div class="team-wrapper">
+    <div class="team-wrapper" id="ourteam">
       <div class="container">
         <div class="heading">
           <h2>OUR LOVELY TEAM</h2>
@@ -125,7 +126,7 @@
       </div>
     </div>
 
-    <div class="message-wrapper">
+    <div class="message-wrapper" id="joinUs">
       <div class="container">
         <div class="heading">
           <h2>JOIN US!</h2>
@@ -133,11 +134,11 @@
           <h3>Lets find out if you are one of us!</h3>
         </div>
         <img src="">
-        <span class="btn message">JOIN US</span>
+        <a href="#" class="btn message">JOIN US</a>
       </div>
     </div>
 
-    <div class="contact-wrapper">
+    <div class="contact-wrapper" id="contactUs">
       <div class="container">
         <div class="heading">
           <h2>CONTACT US</h2>
@@ -147,10 +148,10 @@
         <input>
         <p>Email</p>
         <input type="Email">
-        <p>Message</p> 
-        <textarea></textarea>
         <p>Password</p>
         <input type="Password">
+        <p>Message</p> 
+        <textarea></textarea>
         <p></p>
         <input type = "submit" class = "contact-submit" value = "Send">
       </div>
